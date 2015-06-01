@@ -36,7 +36,7 @@ public class LayoutActivity extends Activity{
                     finish();
                 }
                 else {
-                    Log.d("Login","Passw./Usr. incorrectos");
+                    Log.d("Login","Datos incorrectos");
                 }
             }
         });
