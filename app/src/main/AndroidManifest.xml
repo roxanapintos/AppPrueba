@@ -4,8 +4,8 @@
 
     <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.access_coarse_location"></uses-permission>
-    <uses-permission android:name="android.permission.access_fine_location"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -19,15 +19,24 @@
         </activity>
 
         <activity android:name=".LocationActivity">
+
+        </activity>
+
+        <activity android:name=".SecondActivity">
+
+        </activity>
+
+        <activity android:name=".SensorActivity">
+
+        </activity>
+
+        <activity android:name=".DialogActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-
-        <activity android:name=".SecondActivity">
 
         </activity>
 
