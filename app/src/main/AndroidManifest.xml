@@ -24,6 +24,15 @@
         </activity>
 
         <activity android:name=".DialogActivity">
+
+        </activity>
+
+
+        <activity android:name=".SaveNoteActivity">
+
+        </activity>
+
+        <activity android:name=".NoteActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
