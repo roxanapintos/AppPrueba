@@ -15,6 +15,6 @@ public class SecondActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         String varString = getIntent().getStringExtra("valorTest");
-        Log.d("HelloWorld - Second Activity",varString);
+        Log.d("HelloWorld Sec Activity",varString);
     }
 }

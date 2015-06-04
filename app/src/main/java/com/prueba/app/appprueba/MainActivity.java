@@ -46,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onResume() {
 
-        this.mReceiver=new HelloBroadcastReceiver();
+        this.mReceiver = new HelloBroadcastReceiver();
         registerReceiver(this.mReceiver, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));
 
         super.onResume();
