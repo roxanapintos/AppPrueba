@@ -141,7 +141,7 @@ public class DialogActivity extends Activity {
     private void showCustomDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-        LayoutInflater inflater = getLayoutInflater();
+        LayoutInflater inflater = getLayoutInflater(); //para crear estilo personalizado del layout
 
         builder.setView(inflater.inflate(R.layout.dialog_custom,null))
             .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
